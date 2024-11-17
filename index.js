@@ -55,7 +55,8 @@ function restart() {
         totalGuestCount += 1
         totalGuest.textContent = totalGuestCount
     }
-    count = 0
-    scoreHome.textContent = count
-    scoreGuest.textContent = count
+    let countHome = 0
+    let countGuest = 0
+    scoreHome.textContent = countHome
+    scoreGuest.textContent = countGuest
 }
